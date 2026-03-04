@@ -1,0 +1,35 @@
+export interface Contract {
+  id?: number;
+  estado_cliente: string;
+  tipo_servico: string;
+  hh_estimado: string;
+  id_ativo: string;
+  cliente_primavera: string;
+  cliente_nome: string;
+  fcm: string;
+  pago: boolean | number;
+  data_inicio_contrato: string;
+  data_fim_contrato: string;
+  localizacao_geografica: string;
+  morada_entrega: string;
+  localidade: string;
+  concelho: string;
+  distrito: string;
+  local_execucao_consolidado: string;
+  descricao_servico: string;
+  visita_pesado: string;
+  tipo_equipamento: string;
+  capacidade_ce: string;
+  num_serie_equipamento: string;
+  celula_carga: string;
+  visor: string;
+  num_serie_visor: string;
+  ultima_visita_ce: string;
+  visita_camiao: string;
+  visita_ligeiro: string;
+  sugestao_atividade_camiao: string;
+  proxima_atividade_ligeiro: string;
+  restricao: string;
+  observacao: string;
+  created_at?: string;
+}

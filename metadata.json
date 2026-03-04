@@ -1,0 +1,5 @@
+{
+  "name": "Gestor de Contratos",
+  "description": "Aplicação de gestão de contratos com registo detalhado de clientes e equipamentos.",
+  "requestFramePermissions": []
+}
